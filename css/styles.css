@@ -1,0 +1,40 @@
+:root {
+    --bg-color: hsl(262.3, 37.34%, 10.05%);
+    --color-brand: hsl(171.87, 100%, 51%);
+    --color-brand-dark: hsl(350.54, 91.24%, 48.63%);
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: var(--bg-color);
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+body,
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.c-hero {
+    font-family: 'Bitter', serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--color-brand);
+    text-shadow: 1px 1px 2px var(--color-brand-dark);
+}
+
+.c-hero--centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
